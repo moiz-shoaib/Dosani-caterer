@@ -1,0 +1,381 @@
+.navbar {
+    background-color: red !important;
+    
+ }
+.navbar ul li a:hover{
+    background-color: white;
+    color: red !important;
+    border-radius: 30px;
+    
+}
+.card{
+    border-radius: 40px !important;
+    box-shadow: 10px 11px 13px red !important;
+    margin: 34px 2px;
+    justify-content: space-around !important;
+  
+}
+.card img{
+    border-radius: 40px !important;
+
+}
+
+
+
+
+    
+    
+nav{
+    background-color: red !important;
+    color: white !important;
+} 
+#menu{
+    border: 5px solid black;
+} 
+.card-title {
+    color: red;
+}
+
+
+
+.btn-primary:hover{
+    background-color: black !important;
+    color: white !important;
+    border: 10px red !important;
+    border-color: red !important;
+}
+.btn-primary{
+    border: 2px solid black !important;
+    border-radius: 400px !important;
+}
+
+
+.fa-shopping-cart {
+    font-size: 30px !important;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+
+
+h3{
+    font-weight: bold;
+    color: red;
+}
+
+.card1,.card2,.card3{
+    border: 2px solid black;
+    display: flex !important;
+    width: 300px !important;
+    height: 100px !important;
+    background-color: #fff !important;
+    box-shadow: 6px 9px 12px red;
+    margin-top: 30px !important;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 500px;
+    
+}
+.newArrivals {
+    margin-top: 50px;
+}
+.heading {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+   color: black;
+   margin: 20px !important;
+}
+.heading > h1 {
+    text-shadow: 4px 7px 11px red;
+}
+.card {
+    width: 250px !important;
+    height:auto !important;
+    margin-bottom: 5px;
+}
+
+.footer {
+    width: 100%;
+    background-color:red ;
+    height: 70px;
+    border-color: 2px black;
+    border-radius: 5px red;
+    width: 100% !important;
+}
+
+.footer > div {
+    text-align: center;
+    align-items: center;
+}
+
+.footer > div > h3 {
+    color: white;
+    border-radius: 5px red;
+}    
+
+
+
+.card-text {
+    font-weight: bold;
+    color: red;
+}
+
+.btn-primary {
+    width: 100% !important;
+    background-color: red;
+    text-shadow: 10px 10px 10px  black;
+}
+
+
+
+
+.main-card{
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 400px;
+
+}
+
+.heading {
+    margin-top: 50px;
+}
+.heading > h3 {
+    text-shadow: 4px 7px 11px red;
+    color: black;
+}
+* {
+    box-sizing: border-box;
+  }
+   
+  .row {
+    /* display: -ms-flexbox; / IE10 
+    display: flex;
+    -ms-flex-wrap: wrap; IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    color: red !important;
+    border-radius: 500px !important;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color:white;
+    padding: 5px 20px 15px 20px;
+    /* border: 1px solid red;
+    border-radius: 30px !important;
+    box-shadow: 2px 4px 5px red; */
+    border-radius: 2px red;
+   
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid red;
+    border-radius: 500px;
+    /* box-shadow: 2px 4px 5px red; */
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: red;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: red;
+  }
+  
+  span.price {
+    float: right;
+    color: red;
+  }
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid white; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: white;
+    color: red;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: white !important;
+    box-shadow: 2px 4px 5px red !important;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    
+    background-color: white;
+    padding: 20px;
+  } 
+  .container-1{
+    background-color: white;
+    /* box-shadow: 2px 3px 5px red !important;
+    border: 2px solid red; */
+    color: red; 
+    align-content: center;
+    padding: 150px;
+  }
+.div > h1 {
+    color: white;
+}
+.red{
+  box-shadow: 2px 3px 5px red;
+}
+/* .right > h3{
+  text-align: center;
+} */
+.main-one{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.left{
+  
+  width: 45%;
+  border: 2px solid red;
+  margin: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.left img{
+    width: 100%;
+    height: 550px;
+  
+}
+.right{
+    width: 45%;
+    border: 2px solid red;
+    height: 40%;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color:white;
+    border-radius: 10px;
+}
+.mass {
+  background-color: white;
+}
+.align {
+  text-align: center;
+}
+.namona {
+  text-shadow: 2px 4px 5px black;
+}
+/* .card-img-top {
+  height: 187px !important;
+} */
+.heading {
+  text-align:center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 white;
+  max-width: 300px;
+  margin: 50px;
+  text-align: center;
+  font-family: arial;
+  
+}
+
+.price {
+  color: red;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+ .bg-grey {
+  background-color: #f6f6f6;
+}
+.jumbotron {
+  background-color: #f4511e;
+  color: #fff;
+  padding: 100px 25px;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+
